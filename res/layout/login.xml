@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b" >
+
+    <Button
+        android:id="@+id/bt_main_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_main_login"
+        android:layout_alignBottom="@+id/bt_main_login"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:text=" CANCEL " />
+
+    <EditText
+        android:id="@+id/etxt_main_pwd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt_main_cancel"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etxt_main_uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etxt_main_pwd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="21dp"
+        
+        android:ems="10" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/log" />
+
+    <Button
+        android:id="@+id/bt_main_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="126dp"
+        android:layout_marginLeft="51dp"
+        android:text=" LOGIN " />
+
+</RelativeLayout>
